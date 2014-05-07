@@ -1,0 +1,23 @@
+
+1.启动svn服务：
+	D:\environment\svnserve\bin>  svnserve -d -r d:\svnroot/test
+
+2.创建版本库(svnroot 版本库的根目录)
+	D:\environment\svnserve\bin>  svnadmin create d:\svnroot/test
+
+
+
+3.关联远程github库：
+	git remote add justphp git@github.com:fanwenqi/justphp.git
+
+4.推送本地文件到远程：
+       git push -u justphp master
+
+5.同步远程
+	git pull justphp master
+
+6.提交
+	git commit -m "test"
+
+
+
