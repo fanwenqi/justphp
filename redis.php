@@ -1,14 +1,6 @@
 <?php
 /**
- * 请不要删除此链接: http://www.boyaa.com/
- * value限制为1G
- * $config['Redis'] = array('127.0.0.1', '6379');  //redis存储.
- * $config['Redis'] = array('/tmp/redis.sock', null); //通过套接字连接.unixsocketperm最好是777
- * $oo = new muredis( oo::$config['Redis'], false);
- * 
- * session.save_handler = redis
- * session.save_path = "host1:6379"
- * session.save_path = "tcp://host2:6379?weight=2&timeout=2.5&persistent=0&prefix=PHPREDIS_SESSION:&auth=''&database=1"
+* just for
  */
 class Lib_Redis{
 	/**
